@@ -24,6 +24,13 @@ proprietary API.
 
 ## 📖 Get the book
 
+<table>
+<tr>
+<td width="250" valign="top">
+<img src="docs/images/book-cover.jpg" alt="Python Automation for Real Estate — book cover" width="230">
+</td>
+<td valign="top">
+
 **Python Automation for Real Estate** — available on Amazon Kindle.
 
 👉 **https://www.amazon.com/dp/YOUR_ASIN_HERE**
@@ -31,6 +38,41 @@ proprietary API.
 The book is a plug-and-play technical cookbook: 6 chapters, 7 runnable scripts,
 and a five-stage format for every chapter (goal → architecture → build → run →
 production notes).
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📸 See it in action
+
+<!-- ⚠️ NOT PUBLIC-READY YET: 02-cma-report.png and 04-listing-copy.png are still
+     placeholders. Replace both with real captures (same filenames, 1600 x 900 px)
+     and delete this comment before switching the repository to public. -->
+
+Four views of the pipeline, in chapter order. Each one is a single command.
+
+**Chapter 1 — confirm your environment works** · `python code/verify_setup.py`
+
+![verify_setup.py output: Python version, operating system, five dependency checks, and a live pandas table showing median price per square foot](docs/images/01-environment-check.png)
+
+**Chapter 3 — turn raw comps into a client-ready report** · `python code/generate_cma.py`
+
+![A generated Word CMA report showing the executive valuation summary and a comparable-properties table](docs/images/02-cma-report.png)
+
+**Chapter 4 — catch a price drop without watching the market** · `python code/monitor_price_drops.py`
+
+![Terminal log showing an ALERT line: 104 Maple St, Oakville fell 7.00% (500000 -> 465000)](docs/images/03-price-alert.png)
+
+**Chapter 5 — generate compliant, channel-specific listing copy** · `python code/generate_listing_copy.py`
+
+![The approved listing-copy bundle, plus a quarantine file holding anything that failed fair-housing screening](docs/images/04-listing-copy.png)
+
+> **Chapter 2** (`scrape_listings.py`) is deliberately not shown. It ships pointed
+> at a placeholder domain, so it produces nothing until you point it at a site you
+> are permitted to read. The book covers picking selectors with your browser's
+> developer tools.
 
 ---
 
@@ -72,6 +114,7 @@ run every night without you watching.**
 │   ├── monitor_price_drops.py     # Chapter 4 — diff against a baseline, email/Slack alerts
 │   ├── generate_listing_copy.py   # Chapter 5 — channel-specific copy + fair-housing screen
 │   └── property_state.json        # Sample baseline for monitor_price_drops.py
+├── docs/images/                   # Screenshots used by this README
 ├── requirements.txt
 ├── LICENSE
 └── README.md
