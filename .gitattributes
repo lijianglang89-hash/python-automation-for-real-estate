@@ -1,0 +1,18 @@
+# Normalize line endings to LF in the repository and on checkout, so the code
+# is byte-identical on Windows, macOS and Linux. Without this, a Windows clone
+# rewrites every .py file to CRLF and diffs explode.
+* text=auto eol=lf
+
+# Windows-only scripts, if any are ever added
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binary — never touch these
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.docx  binary
+*.xlsx  binary
+*.pdf   binary

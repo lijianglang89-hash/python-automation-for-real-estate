@@ -1,0 +1,54 @@
+# License — Python Automation for Real Estate (companion code)
+
+Copyright © 2026 James Jiang. All rights reserved.
+
+## What you may do
+
+The source code in this repository (the files under `code/`) is released for
+**personal and internal business use**. You may:
+
+- **Use** it, run it, and modify it for yourself or inside your own company.
+- **Learn from it** and adapt its techniques in your own projects.
+- **Share this repository's URL** with anyone.
+
+## What you may not do
+
+- **Redistribute or republish the code itself** — in whole or in substantial
+  part — as your own work, whether for free or for sale. This includes uploading
+  it to another repository, bundling it into a course, product, template pack,
+  or another book, and including it in any paid dataset.
+- **Sell, sublicense, or offer it as a service** to third parties as a
+  standalone deliverable.
+- **Remove or alter this notice** or the copyright headers.
+
+If you want to redistribute the code, or use it in a commercial product where
+the code itself is the thing being sold, contact the author for a license.
+
+## No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Your responsibility when you run this code
+
+This code fetches data from third-party websites and generates marketing copy.
+
+- **Terms of service.** You are responsible for complying with the terms of
+  service, `robots.txt`, and any applicable law for every site you point this
+  code at. Prefer an official API or a licensed data feed wherever one exists.
+- **Fair housing.** The screening function included here is a limited safety
+  net, **not legal advice**. Fair housing law in the United States is enforced
+  by HUD and by state agencies. A human must review every piece of marketing
+  copy before publication.
+- **Data protection.** Do not use this code to collect or process personal data
+  you are not lawfully entitled to hold.
+
+## Third-party dependencies
+
+This project depends on `requests`, `beautifulsoup4`, `lxml`, `pandas`, and
+`python-docx`. Each is distributed under its own license; see those projects for
+the terms that apply to them.

@@ -1,0 +1,21 @@
+# Python Automation for Real Estate — dependencies
+#
+# The book targets Python 3.12+. Everything below is a pure-Python or
+# wheel-installable dependency; there is no build step and no compiler needed.
+#
+# Install with:
+#     pip install -r requirements.txt
+
+# Chapter 2 — fetching and parsing listing pages
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+lxml>=5.0            # BeautifulSoup parser backend; faster and more forgiving than html.parser
+
+# Chapter 3 — data handling and the CMA report
+pandas>=2.2,<4
+python-docx>=1.1,<2
+openpyxl>=3.1,<4     # Excel read/write engine used by pandas; required by verify_setup.py
+
+# Chapter 4/5 — the LLM client in this book talks plain HTTP via `requests`,
+# so no vendor SDK is required. If you prefer the official client instead:
+#     pip install openai>=1.30

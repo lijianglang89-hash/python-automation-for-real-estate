@@ -1,0 +1,30 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# ── Generated output (safe to regenerate by re-running the scripts) ──
+*.csv
+!sample_data/*.csv
+reports/
+CMA_Report_*.docx
+listings_*.csv
+heartbeat.json
+*.log
+
+# ── Credentials — never commit these ────────────────────
+.env
+.env.*
+credentials.json
+*_secrets.*
+
+# ── Editors / OS ────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

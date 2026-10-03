@@ -1,0 +1,17 @@
+{
+  "PROP_1001": {
+    "Address": "104 Maple St, Oakville",
+    "Price": 500000.0,
+    "Last_Seen": "2026-10-03 20:55:02"
+  },
+  "PROP_1002": {
+    "Address": "208 Pine Rd, Oakville",
+    "Price": 620000.0,
+    "Last_Seen": "2026-10-03 20:55:02"
+  },
+  "PROP_1003": {
+    "Address": "77 Birch Ave, Oakville",
+    "Price": 489000.0,
+    "Last_Seen": "2026-10-03 20:55:02"
+  }
+}
