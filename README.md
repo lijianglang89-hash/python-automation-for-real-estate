@@ -177,6 +177,9 @@ python scrape_listings.py         # writes a timestamped CSV
 python generate_cma.py            # writes CMA_Report_<address>.docx
 ```
 
+`generate_cma.py` writes a `.docx`. Export it to PDF from Word, Pages, or
+LibreOffice when you send it to a client — Chapter 3 covers automating that step.
+
 > `property_state.json` is a **sample baseline**, shipped so
 > `monitor_price_drops.py` has something to diff against on the very first run.
 > With it in place the script should report:
@@ -269,8 +272,7 @@ often be a teaching moment in the next edition rather than a patch here.
 **James Jiang** writes about practical automation for people who work with
 property data.
 
-- **The book:** [Python Automation for Real Estate](https://www.amazon.com/dp/B0HM1X2L9G)
-  — free to read for Kindle Unlimited members
-- **More by James Jiang:** [browse on Amazon](https://www.amazon.com/s?i=digital-text&field-author=James+Jiang)
+- [Python Automation for Real Estate](https://www.amazon.com/dp/B0HM1X2L9G) —
+  available on Kindle, free to read for Kindle Unlimited members
 - Found this useful? A ⭐ on this repository helps other people find it — and
   the book goes into everything the repository deliberately leaves out.
