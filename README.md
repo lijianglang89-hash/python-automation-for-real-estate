@@ -2,16 +2,12 @@
 
 > **A Practical Guide to Scraping Market Data, Automating Property Reports, and Building Micro-Workflows**
 
-<!-- Replace YOUR_ASIN_HERE with the real ASIN once the book is live. -->
-
-[![Available on Amazon Kindle](https://img.shields.io/badge/Amazon_Kindle-Available_Now-orange?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/YOUR_ASIN_HERE)
+[![Available on Amazon Kindle](https://img.shields.io/badge/Amazon_Kindle-Available_Now-orange?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0HM1X2L9G)
+[![Kindle Unlimited](https://img.shields.io/badge/Kindle_Unlimited-Read_for_Free-green?style=for-the-badge)](https://www.amazon.com/dp/B0HM1X2L9G)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
-<!-- KDP Select only: uncomment the badge below ONLY if the book is enrolled in
-     Kindle Unlimited. Claiming KU when you are not enrolled is a misleading
-     claim and can draw a complaint.
-[![Kindle Unlimited](https://img.shields.io/badge/Kindle_Unlimited-Read_for_Free-green?style=for-the-badge)](https://www.amazon.com/dp/YOUR_ASIN_HERE)
--->
+<!-- If the book ever leaves KDP Select, delete the Kindle Unlimited badge above.
+     Claiming KU when you are not enrolled is a misleading claim. -->
 
 This is the official code repository for the book **Python Automation for Real Estate**.
 
@@ -31,9 +27,10 @@ proprietary API.
 </td>
 <td valign="top">
 
-**Python Automation for Real Estate** — available on Amazon Kindle.
+**Python Automation for Real Estate** — available on Amazon Kindle, and free to
+read for Kindle Unlimited members.
 
-👉 **https://www.amazon.com/dp/YOUR_ASIN_HERE**
+👉 **https://www.amazon.com/dp/B0HM1X2L9G**
 
 The book is a plug-and-play technical cookbook: 6 chapters, 7 runnable scripts,
 and a five-stage format for every chapter (goal → architecture → build → run →
@@ -47,11 +44,8 @@ production notes).
 
 ## 📸 See it in action
 
-<!-- ⚠️ NOT PUBLIC-READY YET: 02-cma-report.png and 04-listing-copy.png are still
-     placeholders. Replace both with real captures (same filenames, 1600 x 900 px)
-     and delete this comment before switching the repository to public. -->
-
-Four views of the pipeline, in chapter order. Each one is a single command.
+Four views of the pipeline, in chapter order. Everything below is real output
+from the scripts in this repository — no mock-ups, no staged data.
 
 **Chapter 1 — confirm your environment works** · `python code/verify_setup.py`
 
@@ -65,9 +59,9 @@ Four views of the pipeline, in chapter order. Each one is a single command.
 
 ![Terminal log showing an ALERT line: 104 Maple St, Oakville fell 7.00% (500000 -> 465000)](docs/images/03-price-alert.png)
 
-**Chapter 5 — generate compliant, channel-specific listing copy** · `python code/generate_listing_copy.py`
+**Chapter 5 — screen AI-written copy before it reaches a client** · `python code/generate_listing_copy.py`
 
-![The approved listing-copy bundle, plus a quarantine file holding anything that failed fair-housing screening](docs/images/04-listing-copy.png)
+![A Python session calling screen_fair_housing on a draft description; it returns four matched phrases that would quarantine the copy for human review](docs/images/04-listing-copy.png)
 
 > **Chapter 2** (`scrape_listings.py`) is deliberately not shown. It ships pointed
 > at a placeholder domain, so it produces nothing until you point it at a site you
@@ -275,6 +269,8 @@ often be a teaching moment in the next edition rather than a patch here.
 **James Jiang** writes about practical automation for people who work with
 property data.
 
-- Amazon Author Central: *[link once the book is live]*
+- **The book:** [Python Automation for Real Estate](https://www.amazon.com/dp/B0HM1X2L9G)
+  — free to read for Kindle Unlimited members
+- **More by James Jiang:** [browse on Amazon](https://www.amazon.com/s?i=digital-text&field-author=James+Jiang)
 - Found this useful? A ⭐ on this repository helps other people find it — and
   the book goes into everything the repository deliberately leaves out.
